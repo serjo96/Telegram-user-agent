@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "module": "CommonJS",
+    "target": "es6",
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "noImplicitAny": true,
+    "sourceMap": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "allowJs": true,
+    "skipLibCheck": true,
+    "declaration": true,
+    "typeRoots": ["./types"],
+    "outDir": "./dist",
+    "baseUrl": "./",
+    "paths": {
+      "~/*": ["./src/*"],
+      "@shared/*": ["src/shared/*"],
+      "@user/*": ["src/users/*"]
+    }
+  },
+  "exclude": ["node_modules", "dist", "migrations"]
+}
