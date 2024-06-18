@@ -4,6 +4,10 @@
 
 Telegram User Agent is a backend service that enables a Telegram bot to perform user operations and interact with external APIs using the MTProto Mobile Protocol. It supports session management, stored in JSON files for demo purposes, with a recommendation to use a database in production.
 
+**This project allows you to:**
+- Perform analytics on Telegram channels you are part of (e.g., to check demand and needs, or find new clients by keywords)
+- Automate actions on your behalf
+
 ## Features
 - Node.js and NestJS for robust backend development
 - MTProto Mobile Protocol for Telegram API interaction
